@@ -1,8 +1,8 @@
 FROM debian:jessie
 
 # Defined XX_Net Version.
-ARG XX_NET_VERSION="3.12.11"
-ARG XX_NET_SHA1="da3c5badfca4829986fc01f03ee60c3839e839eb"
+ARG XX_NET_VERSION="3.13.1"
+# ARG XX_NET_SHA1="da3c5badfca4829986fc01f03ee60c3839e839eb"
 
 RUN set -ex; \
     { \
